@@ -1,0 +1,149 @@
+/* 用户页专属CSS */
+.yz_main{
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+}
+.yz_main .icon{
+    width: 25px;
+    height: 25px;
+    padding: 13px;
+}
+.yz_img{
+    flex: 1;
+    padding: 3px 0px 0px 7px;
+}
+.yz_img img{
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    padding: 8px;
+}
+.text{
+    width: 100%;
+    margin-left: 8px;
+    position: relative;
+    flex-direction: column;
+}
+.text span{
+    display: flex;
+    flex-direction: column;
+}
+.play{
+    font-size: 22px;
+    line-height: 100%;
+    color: #000;
+    width: 100%;
+    height: 65px;
+    text-align: left;
+    padding: 15px 0px 0px 3px;
+}
+
+
+.separate{
+    overflow: hidden;
+    width: 100%;
+    height: 5px;
+    display: flex;
+    background-color: #ededed;
+}
+
+.add{
+    z-index: 97;
+    right: 20px;
+    font-size: 30px;
+    color: #b4b4b4;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+#over{
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #ededed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yz_my{
+    height: 130px;
+    width: 100%;
+}
+.yz_my img{
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+    padding: 20px;
+    position: relative;
+    left: 10px;
+}   
+.yz_my .icon{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    top: 55px;
+    right: 5px;
+}
+.yz_mains{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    height: 130px;
+    position: relative;
+    left: -10px;
+}
+#text{
+    padding: 20px 0px 0px 0px;
+}
+#yz_main{
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+}
+.wxh{
+    font-size: 14px;
+    line-height: 100%;
+    color: #868686;
+    width: 100%;
+    height: 15px;
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: -2px;
+}
+#zt{
+    width: 55px;
+    height: 25px;
+    position: relative;
+    top: -52px;
+    left: 85px;
+}
+#gxzt{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -118px;
+    left: 145px;
+}

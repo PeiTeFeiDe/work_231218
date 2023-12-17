@@ -1,0 +1,178 @@
+/* 全局CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+img{            /* 设置块级元素，无边块 */
+    border: none;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    background-color: #ededed;
+    min-width: 100%;
+}
+
+
+/* 上导航栏css */
+/* 右面两个图标和粗体标题 */
+.bnavs{
+    position: fixed;
+    right: 0px;
+    top: 0;
+    background-color: #ededed;
+    z-index: 99;
+    width: 80px;
+    height: 30px;
+}
+.bnavs li{
+    /* zish自适应宽度 100/几个图标 */
+    width: 45%;
+    text-align: center;
+}
+.bnavs>ul{
+    display: flex;
+}
+.bnavs p{
+    color: #333;
+    line-height: 26px;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+/* 点击加号弹出窗口的css */
+#box_wx {
+    width: 100%;
+    min-width: 125px;
+    max-width: 135px;
+    height: 200px;
+    position: fixed;
+    margin: auto;
+    display: none;
+    background: #4c4c4c;
+    -webkit-box-orient: horizontal;
+    z-index: 50;
+    right: 10px;
+    top: 47px;
+    color: #fff;
+    border-radius: 10px;
+}
+#box_wx_left{
+    flex: 1;
+}
+#box_wx_right{
+    flex: 8;
+    background-color: #4c4c4c;
+    border-radius: 10px;
+}
+.box_wx{
+    height: 25%;
+    flex-direction:column;
+    line-height: 250%;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    left: -3px;
+}
+#box_wx_sj{ /* 上方黑色三角 */
+    width: 0;
+    height: 10px;
+    border-left: 10px solid transparent;
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 9px solid #4c4c4c;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    z-index: 2;
+    display: none;
+}
+#box_wx img{
+    width: 28px;
+    height: 28px;
+    display: inline;
+    position: relative;
+    top: 8px;
+}
+.box_wx span{
+    position: relative;
+    left: 5px;
+    display: inline;
+}
+
+/* js实现滚动后标题栏保留且不窜行的css效果 */
+#fixed{
+    width: 100%;
+    height: 39px;
+    background-color: #ededed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    border-bottom: #c7c7c7 solid 1px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 20px;
+    display: flex;
+    z-index: 99;
+}
+#fixed p{
+    flex: 9;
+    font-weight: bold;
+}
+#badfix{
+    width: 100%;
+    height: 39px;
+    display: none;
+}
+#main{
+    height: 100%;
+    background: #fff;
+}
+
+/* 下导航栏 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.bnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #ededed;
+    width: 100%;
+    z-index: 99;
+    padding: 3px 0px 0px 0px;
+}
+.bnav li{
+    /* zish自适应宽度 100/几个图标 */
+    width: 25%;
+    text-align: center;
+}
+.bnav>ul{
+    display: flex;
+}
+.coin{
+    font-size: 36px;
+    margin: 5px 0;
+}
+.bnav p{
+    color: #333;
+    line-height: 26px;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+#badfixs{
+    width: 100%;
+    height: 40px;
+    display: none;
+}

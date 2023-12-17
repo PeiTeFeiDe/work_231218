@@ -1,0 +1,203 @@
+/* 对话页专属css */
+/* 全局CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+img{            /* 设置块级元素，无边块 */
+    border: none;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #ededed;
+    min-width: 100%;
+}
+
+/* 左侧对话框 */
+.user_left{
+    display: flex;
+    width: 100%;
+    background-color: #ededed;
+}
+.user_left_img{ /* 左侧头像坐标 */
+    width: 50px;
+    height: 50px;
+    background-color: None;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.user_left_img img{ /* 左侧头像 */
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.user_left_text{
+    max-width: 400px;
+    max-height: 20px;
+    padding: 11px;
+    border-radius: 5px;
+    position: relative;
+    color: #000;
+    word-wrap:break-word;
+    word-break:normal;
+    background-color: #fff;
+    font-size: 16px;
+    bottom: -12px;
+    line-height: 20px;
+    left: -18px;
+}
+.user_left_sj{ /* 左侧白色三角 */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    top: 23px;
+    left: -18px;
+}
+
+/* 右侧对话框 */
+.user_right{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #ededed;
+}
+.user_right_img{ /* 右侧头像坐标 */
+    width: 50px;
+    height: 50px;
+    background-color: None;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+.user_right_img img{ /* 右侧头像 */
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.user_right_text{
+    max-width: 400px;
+    max-height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    color: #000;
+    word-wrap:break-word;
+    word-break:normal;
+    background-color: #95ec69;
+    font-size: 16px;
+    bottom: -9px;
+    line-height: 20px;
+    right: -16px;
+}
+.user_right_sj{ /* 右侧绿色三角 */
+    width: 0;
+    height: 0;
+    border-left: 10px solid #95ec69;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    right: -15px;
+    top: 21px;
+}
+
+
+/* 上导航栏css */
+/* 左右两个图标和用户名粗体文字 */
+/* js实现滚动后标题栏保留且不窜行的css效果 */
+#fixed{
+    width: 100%;
+    height: 39px;
+    background-color: #ededed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    border-bottom: #eaeaea solid 1px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 20px;
+    display: flex;
+    z-index: 99;
+}
+#fixed p{
+    flex: 9;
+    font-weight: bold;
+}
+#badfix{
+    width: 100%;
+    height: 39px;
+    display: none;
+}
+#badfixs{
+    width: 100%;
+    height: 40px;
+    display: none;
+}
+#main{
+    height: 100%;
+    background: #fff;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    padding: 9px 9px 5px 9px;
+}
+
+#yz_user_down{
+    position: fixed;
+    bottom: 0;
+    background-color: #ededed;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    z-index: 99;
+}
+#yz_user_down .icon{
+    font-size: 23px;
+    padding: 2px 11px 0px 0px;
+    width: 60px;
+}
+/* 文本框 */
+#yz_user_down textarea{
+    font-size: 25px;
+    position: relative;
+    left: -3px;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    flex-grow: 2;
+}
+#button-area{
+    margin-left: auto;
+    position: relative;
+    left: -10px;
+}
+/* 发送按钮 */
+#yz_user_down button{
+    justify-content: flex-end;
+    background-color: #01c65a;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    min-width: 75px;
+    max-width: 85px;
+    border: none;
+    border-radius: 4px;
+    line-height: 30px;
+}
+
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>23201013514-王韫泽</title>
+    <script src="../font/iconfont.js"></script>  
+    <link rel="stylesheet" href="../css/yz_public.css">
+    <link rel="stylesheet" href="../css/yz-txl.css">
+</head>
+<body>
+    <div id="main">
+        <div id="badfix"></div>
+        <div id="fixed">
+            <p>通讯录</p>
+            <nav class="bnavs">  <!-- 上键 -->
+                <ul>
+                    <li>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-chaxun"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg class="icon" aria-hidden="true" id="gd">
+                            <use xlink:href="#icon-zengjia"></use>
+                        </svg>
+                        <div id="box_wx_sj"></div>
+                        <div id="box_wx">
+                            <div id="box_wx_left"></div>
+                            <div id="box_wx_right">
+                                <div class="box_wx">
+                                    <img src="../img/small/1.png">
+                                    <span>发起群聊</span>
+                                </div>
+                                <div class="box_wx">
+                                    <img src="../img/small/2.png">
+                                    <span>添加朋友</span>
+                                </div>
+                                <div class="box_wx">
+                                    <img src="../img/small/3.png">
+                                    <span>扫一扫</span>
+                                </div>
+                                <div class="box_wx">
+                                    <img src="../img/small/4.png">
+                                    <span>收付款</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="box_small">
+            <div id="box_small_left"></div>
+            <div id="box_small_right">
+                <span>设置备注和标签</span>
+            </div>
+        </div>
+        <div class="quick-bar"></div>
+        <ul>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="n1" onmousedown="holdDown()">
+                        <div class="yz_img" >
+                            <img src="../img/txl/1.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">新的朋友</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="n2">
+                        <div class="yz_img" >
+                            <img src="../img/txl/2.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">仅聊天的朋友</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="n3">
+                        <div class="yz_img" >
+                            <img src="../img/txl/3.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">群聊</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="n4">
+                        <div class="yz_img" >
+                            <img src="../img/txl/4.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">标签</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="n5">
+                        <div class="yz_img" >
+                            <img src="../img/txl/5.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">公众号</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <div class="yz_txl">
+                    <span>我的企业及企业联系人</span>
+                </div> 
+            </li>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="n6">
+                        <div class="yz_img" >
+                            <img src="../img/txl/6.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">企业微信联系人</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <div class="yz_txl">
+                    <span>Y</span>
+                </div> 
+            </li>
+            <li>
+                <a href="#">
+                   <div class="yz_user" id="p1">
+                        <div class="yz_img" >
+                            <img src="../img/bird.png" >
+                        </div>
+                        <div class="text" > 
+                            <span class="author">yz1</span>
+                        </div>
+                    </div> 
+                </a>
+            </li>
+            <li>
+                <div class="yz_txl">
+                    <span id="yz_other">#</span>
+                </div> 
+            </li>
+        </ul>
+        <ul class="list"></ul>
+    </div>
+    
+    <div id="badfixs"></div>
+    <nav class="bnav">  <!-- 下导航 -->
+        <ul>
+            <li>
+                <a href="index.html">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiaoxi1"></use>
+                      </svg>
+                    <p>微信</p>
+                </a>
+            </li>
+            <li>
+                <a href="txl.html">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-a-106-tongxunlu"></use>
+                      </svg>
+                    <p>通讯录</p>
+                </a>
+            </li>
+            <li>
+                <a href="find.html">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-faxian"></use>
+                      </svg>
+                    <p>发现</p>
+                </a>
+            </li>
+            <li>
+                <a href="main.html">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-wode"></use>
+                      </svg>
+                    <p>我</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="../js/txl.js"></script>
+</body>
+</html>

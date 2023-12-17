@@ -1,0 +1,69 @@
+/* 发现页专属CSS */
+.yz_find{
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+}
+.yz_find .icon{
+    width: 25px;
+    height: 25px;
+    padding: 13px;
+}
+.yz_img{
+    flex: 1;
+    padding: 0px 0px 0px 6px;
+}
+.yz_img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 8px;
+}
+.text{
+    width: 100%;
+    margin-left: 8px;
+    position: relative;
+    flex-direction: column;
+}
+.text span{
+    display: flex;
+    flex-direction: column;
+}
+.play{
+    font-size: 22px;
+    line-height: 100%;
+    color: #000;
+    width: 100%;
+    height: 65px;
+    text-align: left;
+    padding: 15px 0px 0px 3px;
+}
+
+
+.separate{
+    overflow: hidden;
+    width: 100%;
+    height: 5px;
+    display: flex;
+    background-color: #ededed;
+}
+
+.add{
+    z-index: 97;
+    right: 20px;
+    font-size: 30px;
+    color: #b4b4b4;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+#over{
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #ededed;
+}

@@ -1,0 +1,82 @@
+/* 首页专属CSS */
+.yz_user{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 4px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+}
+.yz_img img{
+    padding: 0px 0px 0px 6px;
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    padding: 8px;
+}
+.text{
+    flex: 8;
+    width: 100%;
+    margin-left: 8px;
+    flex-direction: column;
+    display: flex;
+}
+.text span{
+    display: flex;
+    flex-direction: column;
+}
+.author{
+    font-size: 22px;
+    line-height: 100%;
+    color: #000;
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    padding: 15px 0px 0px 3px;
+}
+.message{
+    font-size: 16px;
+    text-align: left;
+    padding: 8px 0px 0px 0px;
+    color: #aaa;
+}
+.time{
+    font-size: 13px;
+    color: #aaa;
+    text-align: right;
+    position: relative;
+    right: 13px;
+    top: -57px;
+}
+
+
+
+/* 首页js长按效果div */
+#box_small {
+    width: 100%;
+    min-width: 125px;
+    max-width: 135px;
+    height: 200px;
+    position: fixed;
+    margin: auto;
+    display: none;
+    background: #fff;
+    -webkit-box-orient: horizontal;
+    box-shadow: 0 0 3px #000;
+    z-index: 97;
+}
+#box_small_left{
+    flex: 1;
+}
+#box_small_right{
+    flex: 8;
+    background-color: #fff;
+}
+.box_small{
+    height: 25%;
+    flex-direction:column;
+    line-height: 250%;
+    font-size: 16px;
+    text-align: left;
+}
